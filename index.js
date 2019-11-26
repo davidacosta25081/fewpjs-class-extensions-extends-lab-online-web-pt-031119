@@ -1,9 +1,10 @@
 class Polygon {
   constructor(array){
+    this.array = array
   }
 }
 
 
   get countSides() {
-    return this.length
+    return `${this.array.length}`
   }  
