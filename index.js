@@ -5,11 +5,11 @@ class Polygon {
 
 
 
-  get countSides() {
+   countSides() {
     return this.array.length
   }
 
-  get perimeter() {
+   perimeter() {
 
         var per = 0;
         for (var i = 0; i < this.array.length; i++)
@@ -24,6 +24,10 @@ class Polygon {
 }
 
 class Triangle extends Polygon {
+
+
+
+
 
 }
   
