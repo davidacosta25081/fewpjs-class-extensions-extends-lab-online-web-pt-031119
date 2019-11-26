@@ -7,4 +7,4 @@ class Polygon {
 
   get countSides() {
     return `${this.array.length}`
-  }  
+  }
