@@ -43,5 +43,5 @@ class Square extends Polygon {
       return this.isValid = true; }
     else { return this.isValid = false;
     }
-  }  
+  }
 }
