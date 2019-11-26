@@ -10,7 +10,7 @@ class Polygon {
   }
 
   get perimeter() {
-    
+
         var per = 0;
         for (var i = 0; i < this.array.length; i++)
         {
