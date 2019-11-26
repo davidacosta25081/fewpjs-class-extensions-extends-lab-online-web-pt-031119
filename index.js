@@ -5,11 +5,11 @@ class Polygon {
 
 
 
-   countSides() {
+   get countSides() {
     return this.array.length
   }
 
-   perimeter() {
+   get perimeter() {
 
         var per = 0;
         for (var i = 0; i < this.array.length; i++)
